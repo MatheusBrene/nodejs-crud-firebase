@@ -24,8 +24,14 @@ export default {
 
   // [CREATE - ACTION] Cria uma categoria nova
   async create(req, res) {
-    
+      try{
+      const {nome, descricao} = req.body;
+      const novo = push(rootRef)
+      await set(novo, {nome, descricao});
       res.redirect("/categorias");  
+      } catch (e) {
+        console.error("Erro ao cadastrar no Realtime Database", e);
+      }
    
   },
 

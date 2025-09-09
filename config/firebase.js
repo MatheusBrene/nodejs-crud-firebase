@@ -2,14 +2,13 @@ import { initializeApp, getApps } from "firebase/app";
 import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAQXcDs-sjnO4fYj8mrD7BDZp6kPW5DGMo",
-  authDomain: "jquery-firebase-4987e.firebaseapp.com",
-  databaseURL: "https://jquery-firebase-4987e-default-rtdb.firebaseio.com",
-  projectId: "jquery-firebase-4987e",
-  storageBucket: "jquery-firebase-4987e.firebasestorage.app",
-  messagingSenderId: "280908793283",
-  appId: "1:280908793283:web:9b2e0de94c701c7b222976",
-  measurementId: "G-743REKNCHQ"
+  apiKey: "AIzaSyAWNqiYDJeoZZzI-s6n2HJ4y3n2hWBCe4w",
+  authDomain: "aula-d4ea2.firebaseapp.com",
+  databaseURL: "https://aula-d4ea2-default-rtdb.firebaseio.com",
+  projectId: "aula-d4ea2",
+  storageBucket: "aula-d4ea2.firebasestorage.app",
+  messagingSenderId: "1076405513386",
+  appId: "1:1076405513386:web:c9e367e8ae83cbdf9c74d3"
 };
 
 // Evita reinicialização em hot-reload (nodemon)
